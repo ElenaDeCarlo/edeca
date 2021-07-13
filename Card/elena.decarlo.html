@@ -25,6 +25,15 @@
   </p>
 </div>
    </div>
+   <script src="./index.js">
+   const bg = document.getElementById('bg');
+function randomColor(){
+    return Math.floor(Math.random() * 255);
+}
+bg.addEventListener('click' , () => {
+bg.style.backgroundCOLOR = 'rgba('+randomColor()+')'    
+})
+</script> 
 </body>
 
 </html>
